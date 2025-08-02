@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端自动化测试报告</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 8px 8px 0 0; }
+        .header h1 { margin: 0; font-size: 2.5em; }
+        .header .subtitle { opacity: 0.9; margin-top: 10px; }
+        .summary { display: flex; justify-content: space-around; padding: 30px; background: #f8f9fa; }
+        .summary-item { text-align: center; }
+        .summary-item .number { font-size: 2em; font-weight: bold; margin-bottom: 5px; }
+        .summary-item .label { color: #666; text-transform: uppercase; font-size: 0.9em; }
+        .passed { color: #28a745; }
+        .failed { color: #dc3545; }
+        .skipped { color: #ffc107; }
+        .test-results { padding: 30px; }
+        .test-item { border: 1px solid #e9ecef; border-radius: 6px; margin-bottom: 20px; overflow: hidden; }
+        .test-header { padding: 20px; background: #f8f9fa; cursor: pointer; display: flex; justify-content: between; align-items: center; }
+        .test-header:hover { background: #e9ecef; }
+        .test-title { font-size: 1.2em; font-weight: bold; }
+        .test-meta { color: #666; font-size: 0.9em; margin-top: 5px; }
+        .test-status { padding: 4px 12px; border-radius: 20px; color: white; font-size: 0.8em; font-weight: bold; }
+        .test-details { padding: 20px; display: none; }
+        .test-details.show { display: block; }
+        .steps { margin-top: 20px; }
+        .step { border-left: 3px solid #e9ecef; padding: 15px; margin-bottom: 10px; background: #f8f9fa; }
+        .step.passed { border-left-color: #28a745; }
+        .step.failed { border-left-color: #dc3545; }
+        .step.skipped { border-left-color: #ffc107; }
+        .step-header { font-weight: bold; margin-bottom: 8px; }
+        .step-description { color: #666; margin-bottom: 8px; }
+        .step-meta { font-size: 0.8em; color: #999; }
+        .error-message { background: #f8d7da; color: #721c24; padding: 15px; border-radius: 4px; margin-top: 10px; }
+        .screenshot { margin-top: 10px; }
+        .screenshot img { max-width: 100%; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .tags { margin-top: 10px; }
+        .tag { background: #007bff; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>前端自动化测试报告</h1>
+            <div class="subtitle">生成时间: 2025-06-23 21:39:37</div>
+        </div>
+        
+        <div class="summary">
+            <div class="summary-item">
+                <div class="number">1</div>
+                <div class="label">总测试数</div>
+            </div>
+            <div class="summary-item">
+                <div class="number passed">1</div>
+                <div class="label">通过</div>
+            </div>
+            <div class="summary-item">
+                <div class="number failed">0</div>
+                <div class="label">失败</div>
+            </div>
+            <div class="summary-item">
+                <div class="number skipped">0</div>
+                <div class="label">跳过</div>
+            </div>
+            <div class="summary-item">
+                <div class="number">100.0%</div>
+                <div class="label">成功率</div>
+            </div>
+        </div>
+        
+        <div class="test-results">
+            <h2>测试结果详情</h2>
+            
+            <div class="test-item">
+                <div class="test-header" onclick="toggleDetails('test-1')">
+                    <div>
+                        <div class="test-title">百度搜索测试 - Mock Strands版</div>
+                        <div class="test-meta">
+                            使用 Mock Strands Agents + AWS Bedrock Claude 3.5 Sonnet 测试百度搜索功能 | 
+                            执行时间: 1.00s |
+                            开始时间: 2025-06-23T21:39:36.078884
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">automated</span>
+                            
+                            <span class="tag">frontend</span>
+                            
+                            <span class="tag">strands</span>
+                            
+                            <span class="tag">mock</span>
+                            
+                            <span class="tag">search</span>
+                            
+                            <span class="tag">baidu</span>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="test-status passed">PASSED</div>
+                </div>
+                <div class="test-details" id="test-1">
+                    
+                    
+                    <div class="steps">
+                        <h4>执行步骤:</h4>
+                        
+                        <div class="step passed">
+                            <div class="step-header">导航到页面: https://www.baidu.com</div>
+                            <div class="step-description">使用自动化工具成功执行了该步骤</div>
+                            <div class="step-meta">
+                                状态: PASSED | 
+                                耗时: 0.80s |
+                                时间: 2025-06-23T21:39:37.081769
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <div class="step passed">
+                            <div class="step-header">输入搜索关键词: 小米</div>
+                            <div class="step-description">使用自动化工具成功执行了该步骤</div>
+                            <div class="step-meta">
+                                状态: PASSED | 
+                                耗时: 1.10s |
+                                时间: 2025-06-23T21:39:37.081799
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <div class="step passed">
+                            <div class="step-header">点击搜索按钮</div>
+                            <div class="step-description">使用自动化工具成功执行了该步骤</div>
+                            <div class="step-meta">
+                                状态: PASSED | 
+                                耗时: 1.40s |
+                                时间: 2025-06-23T21:39:37.081809
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script>
+        function toggleDetails(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
+        

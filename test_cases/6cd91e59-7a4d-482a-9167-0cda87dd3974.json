@@ -1,0 +1,18 @@
+{
+  "id": "6cd91e59-7a4d-482a-9167-0cda87dd3974",
+  "name": "测试用例",
+  "description": "测试描述",
+  "steps": [
+    {
+      "action": "测试步骤",
+      "data": "测试数据"
+    }
+  ],
+  "expected_results": [],
+  "tags": [],
+  "priority": "medium",
+  "test_type": "functional",
+  "created_at": "2025-06-22T17:04:17.234499",
+  "updated_at": "2025-06-22T17:04:17.234504",
+  "status": "draft"
+}

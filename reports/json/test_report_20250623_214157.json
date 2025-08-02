@@ -1,0 +1,49 @@
+{
+  "report_info": {
+    "generated_at": "2025-06-23T21:41:57.531813",
+    "total_tests": 2,
+    "passed": 0,
+    "failed": 2,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "demo-001",
+      "test_name": "百度搜索功能测试",
+      "test_description": "测试百度搜索引擎的基本搜索功能",
+      "status": "failed",
+      "start_time": "2025-06-23T21:41:56.989434",
+      "end_time": "2025-06-23T21:41:57.255988",
+      "duration": 0.266554,
+      "steps": [],
+      "error_message": "An error occurred (UnrecognizedClientException) when calling the ConverseStream operation: The security token included in the request is invalid.",
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "search",
+        "baidu",
+        "demo"
+      ]
+    },
+    {
+      "test_id": "demo-002",
+      "test_name": "用户界面响应测试",
+      "test_description": "测试网页用户界面的响应性和交互性",
+      "status": "failed",
+      "start_time": "2025-06-23T21:41:57.256109",
+      "end_time": "2025-06-23T21:41:57.518355",
+      "duration": 0.262246,
+      "steps": [],
+      "error_message": "An error occurred (UnrecognizedClientException) when calling the ConverseStream operation: The security token included in the request is invalid.",
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "ui",
+        "interaction",
+        "demo"
+      ]
+    }
+  ]
+}

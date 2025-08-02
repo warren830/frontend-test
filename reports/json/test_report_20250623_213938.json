@@ -1,0 +1,58 @@
+{
+  "report_info": {
+    "generated_at": "2025-06-23T21:39:38.111274",
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "test-mock-strands-001",
+      "test_name": "百度搜索测试 - Mock Strands版",
+      "test_description": "使用 Mock Strands Agents + AWS Bedrock Claude 3.5 Sonnet 测试百度搜索功能",
+      "status": "passed",
+      "start_time": "2025-06-23T21:39:37.092182",
+      "end_time": "2025-06-23T21:39:38.094653",
+      "duration": 1.002471,
+      "steps": [
+        {
+          "name": "导航到页面: https://www.baidu.com",
+          "description": "使用自动化工具成功执行了该步骤",
+          "status": "passed",
+          "duration": 0.8,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T21:39:38.094602"
+        },
+        {
+          "name": "输入搜索关键词: 小米",
+          "description": "使用自动化工具成功执行了该步骤",
+          "status": "passed",
+          "duration": 1.1,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T21:39:38.094635"
+        },
+        {
+          "name": "点击搜索按钮",
+          "description": "使用自动化工具成功执行了该步骤",
+          "status": "passed",
+          "duration": 1.4,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T21:39:38.094647"
+        }
+      ],
+      "error_message": null,
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "mock",
+        "search",
+        "baidu"
+      ]
+    }
+  ]
+}

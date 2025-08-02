@@ -1,0 +1,74 @@
+{
+  "report_info": {
+    "generated_at": "2025-06-23T23:21:23.558135",
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "7628f0f6-5294-4cd5-85dd-6d3517e22e83",
+      "test_name": "test1",
+      "test_description": "我要用百度搜索一下小米的相关信息",
+      "status": "passed",
+      "start_time": "2025-06-23T23:20:27.604088",
+      "end_time": "2025-06-23T23:21:23.541168",
+      "duration": 55.93708,
+      "steps": [
+        {
+          "name": "导航到百度首页",
+          "description": "使用playwright_navigate工具导航到百度首页 (使用工具: playwright_navigate)",
+          "status": "passed",
+          "duration": 0.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T23:21:23.541012"
+        },
+        {
+          "name": "验证页面加载并截图",
+          "description": "对加载完成的百度首页进行截图 (使用工具: playwright_screenshot)",
+          "status": "passed",
+          "duration": 0.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T23:21:23.541093"
+        },
+        {
+          "name": "输入搜索关键词",
+          "description": "在搜索框中输入\"小米\" (使用工具: playwright_fill)",
+          "status": "passed",
+          "duration": 0.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T23:21:23.541115"
+        },
+        {
+          "name": "点击搜索按钮",
+          "description": "点击百度一下按钮 (使用工具: playwright_click)",
+          "status": "passed",
+          "duration": 0.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T23:21:23.541132"
+        },
+        {
+          "name": "验证搜索结果",
+          "description": "对搜索结果页面进行截图和内容验证 (使用工具: playwright_screenshot, playwright_get_visible_text)",
+          "status": "passed",
+          "duration": 0.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T23:21:23.541150"
+        }
+      ],
+      "error_message": null,
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "playwright"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "report_info": {
+    "generated_at": "2025-06-23T22:25:06.576052",
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "7628f0f6-5294-4cd5-85dd-6d3517e22e83",
+      "test_name": "test1",
+      "test_description": "我要用百度搜索一下小米的相关信息",
+      "status": "passed",
+      "start_time": "2025-06-23T22:24:16.554191",
+      "end_time": "2025-06-23T22:25:06.559963",
+      "duration": 50.005772,
+      "steps": [
+        {
+          "name": "导航到百度首页",
+          "description": "打开百度搜索首页 (使用工具: playwright_navigate)",
+          "status": "passed",
+          "duration": 2.15,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T22:25:06.559894"
+        },
+        {
+          "name": "截取首页截图",
+          "description": "记录百度首页初始状态 (使用工具: playwright_screenshot)",
+          "status": "passed",
+          "duration": 0.52,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T22:25:06.559941"
+        },
+        {
+          "name": "输入搜索关键词",
+          "description": "在搜索框中输入\"小米\" (使用工具: playwright_fill)",
+          "status": "passed",
+          "duration": 0.31,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T22:25:06.559948"
+        },
+        {
+          "name": "记录搜索结果截图",
+          "description": "记录输入搜索词后的页面状态 (使用工具: playwright_screenshot)",
+          "status": "passed",
+          "duration": 0.45,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-23T22:25:06.559954"
+        }
+      ],
+      "error_message": null,
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "playwright"
+      ]
+    }
+  ]
+}

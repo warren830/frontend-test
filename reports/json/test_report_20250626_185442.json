@@ -1,0 +1,38 @@
+{
+  "report_info": {
+    "generated_at": "2025-06-26T18:54:42.876113",
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "6cd91e59-7a4d-482a-9167-0cda87dd3974",
+      "test_name": "测试用例",
+      "test_description": "测试描述",
+      "status": "passed",
+      "start_time": "2025-06-26T18:54:15.540120",
+      "end_time": "2025-06-26T18:54:42.858132",
+      "duration": 27.318012,
+      "steps": [
+        {
+          "name": "测试执行",
+          "description": "使用 MCP Playwright 执行自动化测试",
+          "status": "passed",
+          "duration": 0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-26T18:54:42.858031"
+        }
+      ],
+      "error_message": null,
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "playwright"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "report_info": {
+    "generated_at": "2025-06-25T10:41:29.683965",
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "7628f0f6-5294-4cd5-85dd-6d3517e22e83",
+      "test_name": "test1",
+      "test_description": "我要用百度搜索一下小米的相关信息",
+      "status": "passed",
+      "start_time": "2025-06-25T10:40:44.790990",
+      "end_time": "2025-06-25T10:41:29.671538",
+      "duration": 44.880548,
+      "steps": [
+        {
+          "name": "导航到 baidu.com",
+          "description": "使用 Playwright 导航到百度首页 (使用工具: playwright_navigate)",
+          "status": "passed",
+          "duration": 2.15,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-25T10:41:29.671470"
+        },
+        {
+          "name": "打开baidu.com",
+          "description": "验证百度首页加载状态并截图 (使用工具: playwright_screenshot)",
+          "status": "passed",
+          "duration": 0.5,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-25T10:41:29.671515"
+        },
+        {
+          "name": "在输入框输入小米",
+          "description": "在百度搜索框中输入\"小米\" (使用工具: playwright_fill)",
+          "status": "passed",
+          "duration": 1.1,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-06-25T10:41:29.671527"
+        }
+      ],
+      "error_message": null,
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "playwright"
+      ]
+    }
+  ]
+}

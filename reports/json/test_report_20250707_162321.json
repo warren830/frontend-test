@@ -1,0 +1,76 @@
+{
+  "report_info": {
+    "generated_at": "2025-07-07T16:23:21.265704",
+    "total_tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": [
+    {
+      "test_id": "3f45509d-0ea5-4d96-a838-0815aece931b",
+      "test_name": "百度首页搜索功能验证",
+      "test_description": "本测试用例旨在验证百度搜索引擎的基本搜索功能是否正常工作，包括搜索框输入、搜索按钮点击、搜索结果展示等核心功能。",
+      "status": "passed",
+      "start_time": "2025-07-07T16:22:21.434792",
+      "end_time": "2025-07-07T16:23:21.250102",
+      "duration": 59.81531,
+      "steps": [
+        {
+          "name": "导航到百度首页",
+          "description": "使用Playwright导航到百度首页 (使用工具: playwright_navigate)",
+          "status": "passed",
+          "duration": 3.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-07-07T16:23:21.250004"
+        },
+        {
+          "name": "验证页面加载",
+          "description": "通过截图验证百度首页加载状态 (使用工具: playwright_screenshot)",
+          "status": "passed",
+          "duration": 2.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-07-07T16:23:21.250044"
+        },
+        {
+          "name": "搜索关键词测试",
+          "description": "在搜索框输入\"百度测试\"并点击搜索 (使用工具: playwright_fill, playwright_click)",
+          "status": "passed",
+          "duration": 3.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-07-07T16:23:21.250056"
+        },
+        {
+          "name": "验证搜索结果",
+          "description": "获取并验证搜索结果页面内容 (使用工具: playwright_get_visible_text, playwright_screenshot)",
+          "status": "passed",
+          "duration": 5.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-07-07T16:23:21.250067"
+        },
+        {
+          "name": "二次搜索测试",
+          "description": "在结果页面进行第二次搜索 (使用工具: playwright_fill, playwright_click, playwright_screenshot)",
+          "status": "passed",
+          "duration": 4.0,
+          "screenshot": null,
+          "error_message": null,
+          "timestamp": "2025-07-07T16:23:21.250077"
+        }
+      ],
+      "error_message": null,
+      "tags": [
+        "automated",
+        "frontend",
+        "strands",
+        "playwright",
+        "搜索功能测试",
+        "首页功能"
+      ]
+    }
+  ]
+}

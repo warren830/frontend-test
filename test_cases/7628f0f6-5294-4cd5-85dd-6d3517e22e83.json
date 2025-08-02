@@ -1,0 +1,17 @@
+{
+  "id": "7628f0f6-5294-4cd5-85dd-6d3517e22e83",
+  "name": "test1",
+  "description": "我要用百度搜索一下小米的相关信息",
+  "steps": [
+    "导航到 baidu.com",
+    "打开baidu.com",
+    "在输入框输入小米"
+  ],
+  "expected_results": "可以正确通过百度搜索小米的相关信息",
+  "tags": [],
+  "priority": "medium",
+  "test_type": "functional",
+  "created_at": "2025-06-23T19:32:50.018372",
+  "updated_at": "2025-06-23T19:32:50.018383",
+  "status": "draft"
+}
